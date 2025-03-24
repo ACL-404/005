@@ -57,6 +57,7 @@
             this.BT1.TabIndex = 0;
             this.BT1.Text = "1";
             this.BT1.UseVisualStyleBackColor = true;
+            this.BT1.Click += new System.EventHandler(this.BT1_Click);
             // 
             // BT2
             // 
@@ -67,6 +68,7 @@
             this.BT2.TabIndex = 1;
             this.BT2.Text = "2";
             this.BT2.UseVisualStyleBackColor = true;
+            this.BT2.Click += new System.EventHandler(this.BT2_Click);
             // 
             // BT3
             // 
@@ -77,6 +79,7 @@
             this.BT3.TabIndex = 2;
             this.BT3.Text = "3";
             this.BT3.UseVisualStyleBackColor = true;
+            this.BT3.Click += new System.EventHandler(this.BT3_Click);
             // 
             // BT4
             // 
@@ -87,6 +90,7 @@
             this.BT4.TabIndex = 3;
             this.BT4.Text = "4";
             this.BT4.UseVisualStyleBackColor = true;
+            this.BT4.Click += new System.EventHandler(this.BT4_Click);
             // 
             // BT5
             // 
@@ -97,6 +101,7 @@
             this.BT5.TabIndex = 4;
             this.BT5.Text = "5";
             this.BT5.UseVisualStyleBackColor = true;
+            this.BT5.Click += new System.EventHandler(this.BT5_Click);
             // 
             // BT6
             // 
@@ -107,6 +112,7 @@
             this.BT6.TabIndex = 5;
             this.BT6.Text = "6";
             this.BT6.UseVisualStyleBackColor = true;
+            this.BT6.Click += new System.EventHandler(this.BT6_Click);
             // 
             // BT7
             // 
@@ -117,6 +123,7 @@
             this.BT7.TabIndex = 6;
             this.BT7.Text = "7";
             this.BT7.UseVisualStyleBackColor = true;
+            this.BT7.Click += new System.EventHandler(this.BT7_Click);
             // 
             // BT8
             // 
@@ -127,6 +134,7 @@
             this.BT8.TabIndex = 7;
             this.BT8.Text = "8";
             this.BT8.UseVisualStyleBackColor = true;
+            this.BT8.Click += new System.EventHandler(this.BT8_Click);
             // 
             // BT9
             // 
@@ -137,6 +145,7 @@
             this.BT9.TabIndex = 8;
             this.BT9.Text = "9";
             this.BT9.UseVisualStyleBackColor = true;
+            this.BT9.Click += new System.EventHandler(this.BT9_Click);
             // 
             // BTPlus
             // 
@@ -187,6 +196,7 @@
             this.BTr.TabIndex = 13;
             this.BTr.Text = "AC";
             this.BTr.UseVisualStyleBackColor = true;
+            this.BTr.Click += new System.EventHandler(this.BTr_Click);
             // 
             // BT0
             // 
@@ -197,6 +207,7 @@
             this.BT0.TabIndex = 14;
             this.BT0.Text = "0";
             this.BT0.UseVisualStyleBackColor = true;
+            this.BT0.Click += new System.EventHandler(this.BT0_Click);
             // 
             // BTp
             // 
@@ -207,6 +218,7 @@
             this.BTp.TabIndex = 15;
             this.BTp.Text = ".";
             this.BTp.UseVisualStyleBackColor = true;
+            this.BTp.Click += new System.EventHandler(this.BTp_Click);
             // 
             // BTa
             // 
@@ -220,11 +232,12 @@
             // 
             // TEXTB1
             // 
-            this.TEXTB1.Font = new System.Drawing.Font("新細明體", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.TEXTB1.Font = new System.Drawing.Font("Mistral", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TEXTB1.Location = new System.Drawing.Point(12, 12);
             this.TEXTB1.Name = "TEXTB1";
-            this.TEXTB1.Size = new System.Drawing.Size(266, 59);
+            this.TEXTB1.Size = new System.Drawing.Size(266, 60);
             this.TEXTB1.TabIndex = 17;
+            this.TEXTB1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Form1
             // 
