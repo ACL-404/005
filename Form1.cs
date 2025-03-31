@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace _005
 {
-    public partial class Form1: Form
+    public partial class Form1 : Form
     {
         private string input = string.Empty;
         private string operand1 = string.Empty;
@@ -66,7 +66,7 @@ namespace _005
             }
             TEXTB1.Text = TEXTB1.Text + "5";
         }
-       
+
         private void BT6_Click(object sender, EventArgs e)
         {
             if (TEXTB1.Text == "0")
@@ -107,9 +107,9 @@ namespace _005
         {
             if (TEXTB1.Text == "0")
             {
-                TEXTB1.Text = ""; 
+                TEXTB1.Text = "";
             }
-                TEXTB1.Text = TEXTB1.Text + "0";
+            TEXTB1.Text = TEXTB1.Text + "0";
         }
 
         private void BTp_Click(object sender, EventArgs e)
@@ -188,6 +188,24 @@ namespace _005
             input = string.Empty;
             operand1 = string.Empty;
             operand2 = string.Empty;
+        }
+
+        private void BTpur_Click(object sender, EventArgs e)
+        {
+            double num;
+            if (double.TryParse(TEXTB1.Text, out num))
+            {
+                num = num / 100;
+                TEXTB1.Text = num.ToString();
+            }
+        }
+
+        private void BTback_Click(object sender, EventArgs e)
+        {
+            if (TEXTB1.Text.Length > 0)
+            {
+                TEXTB1.Text = TEXTB1.Text.Substring(0, TEXTB1.Text.Length - 1);
+            }
         }
     }
 }
