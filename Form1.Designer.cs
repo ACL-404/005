@@ -156,6 +156,7 @@
             this.BTPlus.TabIndex = 9;
             this.BTPlus.Text = "*";
             this.BTPlus.UseVisualStyleBackColor = true;
+            this.BTPlus.Click += new System.EventHandler(this.BTPlus_Click);
             // 
             // BTMinus
             // 
@@ -166,6 +167,7 @@
             this.BTMinus.TabIndex = 10;
             this.BTMinus.Text = "-";
             this.BTMinus.UseVisualStyleBackColor = true;
+            this.BTMinus.Click += new System.EventHandler(this.BTMinus_Click);
             // 
             // BTadd
             // 
@@ -176,6 +178,7 @@
             this.BTadd.TabIndex = 11;
             this.BTadd.Text = "+";
             this.BTadd.UseVisualStyleBackColor = true;
+            this.BTadd.Click += new System.EventHandler(this.BTadd_Click);
             // 
             // BTDivide
             // 
@@ -186,6 +189,7 @@
             this.BTDivide.TabIndex = 12;
             this.BTDivide.Text = "/";
             this.BTDivide.UseVisualStyleBackColor = true;
+            this.BTDivide.Click += new System.EventHandler(this.BTDivide_Click);
             // 
             // BTr
             // 
@@ -229,6 +233,7 @@
             this.BTa.TabIndex = 16;
             this.BTa.Text = "=";
             this.BTa.UseVisualStyleBackColor = true;
+            this.BTa.Click += new System.EventHandler(this.BTa_Click);
             // 
             // TEXTB1
             // 
