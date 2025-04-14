@@ -54,9 +54,10 @@
             // BT1
             // 
             this.BT1.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BT1.Location = new System.Drawing.Point(12, 191);
+            this.BT1.Location = new System.Drawing.Point(12, 242);
+            this.BT1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BT1.Name = "BT1";
-            this.BT1.Size = new System.Drawing.Size(83, 51);
+            this.BT1.Size = new System.Drawing.Size(83, 65);
             this.BT1.TabIndex = 0;
             this.BT1.Text = "1";
             this.BT1.UseVisualStyleBackColor = true;
@@ -65,9 +66,10 @@
             // BT2
             // 
             this.BT2.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BT2.Location = new System.Drawing.Point(101, 191);
+            this.BT2.Location = new System.Drawing.Point(101, 242);
+            this.BT2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BT2.Name = "BT2";
-            this.BT2.Size = new System.Drawing.Size(83, 51);
+            this.BT2.Size = new System.Drawing.Size(83, 65);
             this.BT2.TabIndex = 1;
             this.BT2.Text = "2";
             this.BT2.UseVisualStyleBackColor = true;
@@ -76,9 +78,10 @@
             // BT3
             // 
             this.BT3.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BT3.Location = new System.Drawing.Point(190, 191);
+            this.BT3.Location = new System.Drawing.Point(190, 242);
+            this.BT3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BT3.Name = "BT3";
-            this.BT3.Size = new System.Drawing.Size(83, 51);
+            this.BT3.Size = new System.Drawing.Size(83, 65);
             this.BT3.TabIndex = 2;
             this.BT3.Text = "3";
             this.BT3.UseVisualStyleBackColor = true;
@@ -87,9 +90,10 @@
             // BT4
             // 
             this.BT4.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BT4.Location = new System.Drawing.Point(12, 134);
+            this.BT4.Location = new System.Drawing.Point(12, 170);
+            this.BT4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BT4.Name = "BT4";
-            this.BT4.Size = new System.Drawing.Size(83, 51);
+            this.BT4.Size = new System.Drawing.Size(83, 65);
             this.BT4.TabIndex = 3;
             this.BT4.Text = "4";
             this.BT4.UseVisualStyleBackColor = true;
@@ -98,9 +102,10 @@
             // BT5
             // 
             this.BT5.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BT5.Location = new System.Drawing.Point(101, 134);
+            this.BT5.Location = new System.Drawing.Point(101, 170);
+            this.BT5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BT5.Name = "BT5";
-            this.BT5.Size = new System.Drawing.Size(83, 51);
+            this.BT5.Size = new System.Drawing.Size(83, 65);
             this.BT5.TabIndex = 4;
             this.BT5.Text = "5";
             this.BT5.UseVisualStyleBackColor = true;
@@ -109,9 +114,10 @@
             // BT6
             // 
             this.BT6.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BT6.Location = new System.Drawing.Point(190, 134);
+            this.BT6.Location = new System.Drawing.Point(190, 170);
+            this.BT6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BT6.Name = "BT6";
-            this.BT6.Size = new System.Drawing.Size(83, 51);
+            this.BT6.Size = new System.Drawing.Size(83, 65);
             this.BT6.TabIndex = 5;
             this.BT6.Text = "6";
             this.BT6.UseVisualStyleBackColor = true;
@@ -120,9 +126,10 @@
             // BT7
             // 
             this.BT7.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BT7.Location = new System.Drawing.Point(12, 77);
+            this.BT7.Location = new System.Drawing.Point(12, 98);
+            this.BT7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BT7.Name = "BT7";
-            this.BT7.Size = new System.Drawing.Size(83, 51);
+            this.BT7.Size = new System.Drawing.Size(83, 65);
             this.BT7.TabIndex = 6;
             this.BT7.Text = "7";
             this.BT7.UseVisualStyleBackColor = true;
@@ -131,9 +138,10 @@
             // BT8
             // 
             this.BT8.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BT8.Location = new System.Drawing.Point(101, 77);
+            this.BT8.Location = new System.Drawing.Point(101, 98);
+            this.BT8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BT8.Name = "BT8";
-            this.BT8.Size = new System.Drawing.Size(83, 51);
+            this.BT8.Size = new System.Drawing.Size(83, 65);
             this.BT8.TabIndex = 7;
             this.BT8.Text = "8";
             this.BT8.UseVisualStyleBackColor = true;
@@ -142,9 +150,10 @@
             // BT9
             // 
             this.BT9.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BT9.Location = new System.Drawing.Point(190, 77);
+            this.BT9.Location = new System.Drawing.Point(190, 98);
+            this.BT9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BT9.Name = "BT9";
-            this.BT9.Size = new System.Drawing.Size(83, 51);
+            this.BT9.Size = new System.Drawing.Size(83, 65);
             this.BT9.TabIndex = 8;
             this.BT9.Text = "9";
             this.BT9.UseVisualStyleBackColor = true;
@@ -153,9 +162,10 @@
             // BTPlus
             // 
             this.BTPlus.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BTPlus.Location = new System.Drawing.Point(284, 191);
+            this.BTPlus.Location = new System.Drawing.Point(284, 242);
+            this.BTPlus.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTPlus.Name = "BTPlus";
-            this.BTPlus.Size = new System.Drawing.Size(83, 51);
+            this.BTPlus.Size = new System.Drawing.Size(83, 65);
             this.BTPlus.TabIndex = 9;
             this.BTPlus.Text = "*";
             this.BTPlus.UseVisualStyleBackColor = true;
@@ -164,9 +174,10 @@
             // BTMinus
             // 
             this.BTMinus.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BTMinus.Location = new System.Drawing.Point(284, 134);
+            this.BTMinus.Location = new System.Drawing.Point(284, 170);
+            this.BTMinus.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTMinus.Name = "BTMinus";
-            this.BTMinus.Size = new System.Drawing.Size(83, 51);
+            this.BTMinus.Size = new System.Drawing.Size(83, 65);
             this.BTMinus.TabIndex = 10;
             this.BTMinus.Text = "-";
             this.BTMinus.UseVisualStyleBackColor = true;
@@ -175,9 +186,10 @@
             // BTadd
             // 
             this.BTadd.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BTadd.Location = new System.Drawing.Point(284, 77);
+            this.BTadd.Location = new System.Drawing.Point(284, 98);
+            this.BTadd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTadd.Name = "BTadd";
-            this.BTadd.Size = new System.Drawing.Size(83, 51);
+            this.BTadd.Size = new System.Drawing.Size(83, 65);
             this.BTadd.TabIndex = 11;
             this.BTadd.Text = "+";
             this.BTadd.UseVisualStyleBackColor = true;
@@ -186,9 +198,10 @@
             // BTDivide
             // 
             this.BTDivide.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BTDivide.Location = new System.Drawing.Point(284, 248);
+            this.BTDivide.Location = new System.Drawing.Point(284, 314);
+            this.BTDivide.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTDivide.Name = "BTDivide";
-            this.BTDivide.Size = new System.Drawing.Size(83, 51);
+            this.BTDivide.Size = new System.Drawing.Size(83, 65);
             this.BTDivide.TabIndex = 12;
             this.BTDivide.Text = "/";
             this.BTDivide.UseVisualStyleBackColor = true;
@@ -197,9 +210,10 @@
             // BTr
             // 
             this.BTr.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BTr.Location = new System.Drawing.Point(373, 77);
+            this.BTr.Location = new System.Drawing.Point(373, 98);
+            this.BTr.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTr.Name = "BTr";
-            this.BTr.Size = new System.Drawing.Size(83, 51);
+            this.BTr.Size = new System.Drawing.Size(83, 65);
             this.BTr.TabIndex = 13;
             this.BTr.Text = "AC";
             this.BTr.UseVisualStyleBackColor = true;
@@ -208,9 +222,10 @@
             // BT0
             // 
             this.BT0.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BT0.Location = new System.Drawing.Point(101, 248);
+            this.BT0.Location = new System.Drawing.Point(101, 314);
+            this.BT0.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BT0.Name = "BT0";
-            this.BT0.Size = new System.Drawing.Size(83, 51);
+            this.BT0.Size = new System.Drawing.Size(83, 65);
             this.BT0.TabIndex = 14;
             this.BT0.Text = "0";
             this.BT0.UseVisualStyleBackColor = true;
@@ -219,9 +234,10 @@
             // BTp
             // 
             this.BTp.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BTp.Location = new System.Drawing.Point(12, 248);
+            this.BTp.Location = new System.Drawing.Point(12, 314);
+            this.BTp.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTp.Name = "BTp";
-            this.BTp.Size = new System.Drawing.Size(83, 51);
+            this.BTp.Size = new System.Drawing.Size(83, 65);
             this.BTp.TabIndex = 15;
             this.BTp.Text = ".";
             this.BTp.UseVisualStyleBackColor = true;
@@ -230,9 +246,10 @@
             // BTa
             // 
             this.BTa.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BTa.Location = new System.Drawing.Point(190, 248);
+            this.BTa.Location = new System.Drawing.Point(190, 314);
+            this.BTa.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTa.Name = "BTa";
-            this.BTa.Size = new System.Drawing.Size(83, 51);
+            this.BTa.Size = new System.Drawing.Size(83, 65);
             this.BTa.TabIndex = 16;
             this.BTa.Text = "=";
             this.BTa.UseVisualStyleBackColor = true;
@@ -241,18 +258,20 @@
             // TEXTB1
             // 
             this.TEXTB1.Font = new System.Drawing.Font("Mistral", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TEXTB1.Location = new System.Drawing.Point(12, 12);
+            this.TEXTB1.Location = new System.Drawing.Point(12, 15);
+            this.TEXTB1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TEXTB1.Name = "TEXTB1";
-            this.TEXTB1.Size = new System.Drawing.Size(444, 60);
+            this.TEXTB1.Size = new System.Drawing.Size(441, 60);
             this.TEXTB1.TabIndex = 17;
             this.TEXTB1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // BTpur
             // 
             this.BTpur.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BTpur.Location = new System.Drawing.Point(373, 134);
+            this.BTpur.Location = new System.Drawing.Point(373, 170);
+            this.BTpur.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTpur.Name = "BTpur";
-            this.BTpur.Size = new System.Drawing.Size(83, 51);
+            this.BTpur.Size = new System.Drawing.Size(83, 65);
             this.BTpur.TabIndex = 18;
             this.BTpur.Text = "%";
             this.BTpur.UseVisualStyleBackColor = true;
@@ -261,9 +280,10 @@
             // BTback
             // 
             this.BTback.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BTback.Location = new System.Drawing.Point(373, 248);
+            this.BTback.Location = new System.Drawing.Point(373, 314);
+            this.BTback.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTback.Name = "BTback";
-            this.BTback.Size = new System.Drawing.Size(83, 51);
+            this.BTback.Size = new System.Drawing.Size(83, 65);
             this.BTback.TabIndex = 19;
             this.BTback.Text = "<<";
             this.BTback.UseVisualStyleBackColor = true;
@@ -272,9 +292,10 @@
             // back1st
             // 
             this.back1st.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.back1st.Location = new System.Drawing.Point(373, 191);
+            this.back1st.Location = new System.Drawing.Point(373, 242);
+            this.back1st.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.back1st.Name = "back1st";
-            this.back1st.Size = new System.Drawing.Size(83, 51);
+            this.back1st.Size = new System.Drawing.Size(83, 65);
             this.back1st.TabIndex = 20;
             this.back1st.Text = "<";
             this.back1st.UseVisualStyleBackColor = true;
@@ -282,10 +303,10 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(465, 312);
+            this.BackColor = System.Drawing.SystemColors.GrayText;
+            this.ClientSize = new System.Drawing.Size(467, 395);
             this.Controls.Add(this.back1st);
             this.Controls.Add(this.BTback);
             this.Controls.Add(this.BTpur);
@@ -307,9 +328,10 @@
             this.Controls.Add(this.BT3);
             this.Controls.Add(this.BT2);
             this.Controls.Add(this.BT1);
-            this.Font = new System.Drawing.Font("新細明體", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Font = new System.Drawing.Font("微軟正黑體", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
-            this.Text = "AC";
+            this.Text = "計算雞";
             this.ResumeLayout(false);
             this.PerformLayout();
 
