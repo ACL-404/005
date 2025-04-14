@@ -48,6 +48,7 @@
             this.TEXTB1 = new System.Windows.Forms.TextBox();
             this.BTpur = new System.Windows.Forms.Button();
             this.BTback = new System.Windows.Forms.Button();
+            this.back1st = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BT1
@@ -196,7 +197,7 @@
             // BTr
             // 
             this.BTr.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BTr.Location = new System.Drawing.Point(284, 20);
+            this.BTr.Location = new System.Drawing.Point(373, 77);
             this.BTr.Name = "BTr";
             this.BTr.Size = new System.Drawing.Size(83, 51);
             this.BTr.TabIndex = 13;
@@ -242,14 +243,14 @@
             this.TEXTB1.Font = new System.Drawing.Font("Mistral", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TEXTB1.Location = new System.Drawing.Point(12, 12);
             this.TEXTB1.Name = "TEXTB1";
-            this.TEXTB1.Size = new System.Drawing.Size(266, 60);
+            this.TEXTB1.Size = new System.Drawing.Size(444, 60);
             this.TEXTB1.TabIndex = 17;
             this.TEXTB1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // BTpur
             // 
             this.BTpur.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BTpur.Location = new System.Drawing.Point(12, 305);
+            this.BTpur.Location = new System.Drawing.Point(373, 134);
             this.BTpur.Name = "BTpur";
             this.BTpur.Size = new System.Drawing.Size(83, 51);
             this.BTpur.TabIndex = 18;
@@ -260,7 +261,7 @@
             // BTback
             // 
             this.BTback.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BTback.Location = new System.Drawing.Point(101, 305);
+            this.BTback.Location = new System.Drawing.Point(373, 248);
             this.BTback.Name = "BTback";
             this.BTback.Size = new System.Drawing.Size(83, 51);
             this.BTback.TabIndex = 19;
@@ -268,12 +269,24 @@
             this.BTback.UseVisualStyleBackColor = true;
             this.BTback.Click += new System.EventHandler(this.BTback_Click);
             // 
+            // back1st
+            // 
+            this.back1st.Font = new System.Drawing.Font("新細明體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.back1st.Location = new System.Drawing.Point(373, 191);
+            this.back1st.Name = "back1st";
+            this.back1st.Size = new System.Drawing.Size(83, 51);
+            this.back1st.TabIndex = 20;
+            this.back1st.Text = "<";
+            this.back1st.UseVisualStyleBackColor = true;
+            this.back1st.Click += new System.EventHandler(this.back1st_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(376, 377);
+            this.ClientSize = new System.Drawing.Size(465, 312);
+            this.Controls.Add(this.back1st);
             this.Controls.Add(this.BTback);
             this.Controls.Add(this.BTpur);
             this.Controls.Add(this.TEXTB1);
@@ -324,6 +337,7 @@
         private System.Windows.Forms.TextBox TEXTB1;
         private System.Windows.Forms.Button BTpur;
         private System.Windows.Forms.Button BTback;
+        private System.Windows.Forms.Button back1st;
     }
 }
 
